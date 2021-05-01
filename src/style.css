@@ -1,1 +1,35 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+/* @import "~bootstrap/dist/css/bootstrap.min.css"; */
+body {
+  background-color: green;
+}
+.card {
+  background-color: white;
+  margin-left: 30%;
+  margin-right: 30%;
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.number {
+  text-align: center;
+  font-size: 30vh;
+  vertical-align: auto;
+  flex-grow: 4;
+}
+
+.top-icon {
+  flex-grow: 1;
+  vertical-align: middle;
+  font-size: 20vh;
+  display: flex;
+  align-items: center;
+}
+
+.bottom-icon {
+  text-align: right;
+  flex-grow: 1;
+  font-size: 20vh;
+  display: flex;
+  align-items: center;
+}
