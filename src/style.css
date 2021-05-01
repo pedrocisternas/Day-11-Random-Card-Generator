@@ -32,4 +32,5 @@ body {
   font-size: 20vh;
   display: flex;
   align-items: center;
+  flex-direction: row-reverse;
 }
